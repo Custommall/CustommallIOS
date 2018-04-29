@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import CoreData
 import AVFoundation
-import PagingMenuController
+//import PagingMenuController
 import Photos
 import QCloudCOSXML
 import QCloudCore

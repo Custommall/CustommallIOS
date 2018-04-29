@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 import CoreData
-import PagingMenuController
+//import PagingMenuController
 
 class OrdersViewController:UIViewController,UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate {
     //MARK:-网络请求管理

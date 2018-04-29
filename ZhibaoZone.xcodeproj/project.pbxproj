@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0235AF1FFD20E600CBD846 /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0235AE1FFD20CB00CBD846 /* PagingMenuController.framework */; };
-		0A0235B01FFD20E600CBD846 /* PagingMenuController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0235AE1FFD20CB00CBD846 /* PagingMenuController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0A0235B41FFD23B900CBD846 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0235B31FFD23B900CBD846 /* OrdersViewController.swift */; };
 		0A0235B61FFD23C600CBD846 /* TastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0235B51FFD23C600CBD846 /* TastsViewController.swift */; };
 		0A036A512027FE7F00A2F036 /* UnlockGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A036A502027FE7F00A2F036 /* UnlockGestureView.swift */; };
 		0A036A5B2028682D00A2F036 /* SecuritySettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A036A5A2028682D00A2F036 /* SecuritySettingViewController.swift */; };
 		0A1295562072EB5E00C21C66 /* msg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A1295552072EB5E00C21C66 /* msg.wav */; };
 		0A20028A206134CD00A81D21 /* TaskContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A200289206134CD00A81D21 /* TaskContentTableViewCell.swift */; };
+		0A252F1E2095D5A000C1F7F4 /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A252F1D2095D56D00C1F7F4 /* PagingMenuController.framework */; };
 		0A25DF97201D7E63009CBDEA /* contactList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A25DF96201D7E63009CBDEA /* contactList.plist */; };
 		0A38067B2031DB680077E77F /* CircleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A38067A2031DB680077E77F /* CircleInfoView.swift */; };
 		0A3806842031E0B30077E77F /* LockLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3806832031E0B30077E77F /* LockLabel.swift */; };
@@ -86,18 +85,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A0235AD1FFD20CB00CBD846 /* PBXContainerItemProxy */ = {
+		0A252F1C2095D56D00C1F7F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0A0235A21FFD20CB00CBD846 /* PagingMenuController.xcodeproj */;
+			containerPortal = 0A252F112095D56C00C1F7F4 /* PagingMenuController.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ECE530671B6DEB18001CF201;
-			remoteInfo = PagingMenuController;
-		};
-		0A0235B11FFD20E600CBD846 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0A0235A21FFD20CB00CBD846 /* PagingMenuController.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = ECE530661B6DEB18001CF201;
 			remoteInfo = PagingMenuController;
 		};
 		0A6AD66C1FF1EFB4009A511A /* PBXContainerItemProxy */ = {
@@ -180,7 +172,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				0AD2829C1FF47BD50044E41C /* Alamofire.framework in Embed Frameworks */,
-				0A0235B01FFD20E600CBD846 /* PagingMenuController.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,13 +180,13 @@
 
 /* Begin PBXFileReference section */
 		0A00793D1FFCB626005E93B6 /* SwiftNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
-		0A0235A21FFD20CB00CBD846 /* PagingMenuController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PagingMenuController.xcodeproj; path = "../../../Downloads/PagingMenuController-master/PagingMenuController.xcodeproj"; sourceTree = "<group>"; };
 		0A0235B31FFD23B900CBD846 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		0A0235B51FFD23C600CBD846 /* TastsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastsViewController.swift; sourceTree = "<group>"; };
 		0A036A502027FE7F00A2F036 /* UnlockGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockGestureView.swift; sourceTree = "<group>"; };
 		0A036A5A2028682D00A2F036 /* SecuritySettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuritySettingViewController.swift; sourceTree = "<group>"; };
 		0A1295552072EB5E00C21C66 /* msg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = msg.wav; sourceTree = "<group>"; };
 		0A200289206134CD00A81D21 /* TaskContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskContentTableViewCell.swift; sourceTree = "<group>"; };
+		0A252F112095D56C00C1F7F4 /* PagingMenuController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PagingMenuController.xcodeproj; path = "../../../Downloads/PagingMenuController-master/PagingMenuController.xcodeproj"; sourceTree = "<group>"; };
 		0A25DF96201D7E63009CBDEA /* contactList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = contactList.plist; sourceTree = "<group>"; };
 		0A38067A2031DB680077E77F /* CircleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleInfoView.swift; sourceTree = "<group>"; };
 		0A3806832031E0B30077E77F /* LockLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockLabel.swift; sourceTree = "<group>"; };
@@ -279,6 +270,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A252F1E2095D5A000C1F7F4 /* PagingMenuController.framework in Frameworks */,
 				0AC1AC61204E2BAD0096A6F6 /* libstdc++.tbd in Frameworks */,
 				0AC1AC5F204E2BA20096A6F6 /* SystemConfiguration.framework in Frameworks */,
 				0AC1AC5D204E2B980096A6F6 /* Foundation.framework in Frameworks */,
@@ -286,7 +278,6 @@
 				0AC1AC58204E2B260096A6F6 /* QCloudCOSXML.framework in Frameworks */,
 				0AC1AC57204E2B260096A6F6 /* QCloudCore.framework in Frameworks */,
 				0AD2829B1FF47BD50044E41C /* Alamofire.framework in Frameworks */,
-				0A0235AF1FFD20E600CBD846 /* PagingMenuController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +298,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A0235A31FFD20CB00CBD846 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A0235AE1FFD20CB00CBD846 /* PagingMenuController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		0A036A59202867FB00A2F036 /* SecuritySetting */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +306,14 @@
 				0A38068B2035D6560077E77F /* GestureViewController.swift */,
 			);
 			path = SecuritySetting;
+			sourceTree = "<group>";
+		};
+		0A252F122095D56C00C1F7F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A252F1D2095D56D00C1F7F4 /* PagingMenuController.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		0A54F30120567AB400103FD8 /* MessageList */ = {
@@ -382,7 +373,7 @@
 				0A25DF96201D7E63009CBDEA /* contactList.plist */,
 				0A00793D1FFCB626005E93B6 /* SwiftNotice.swift */,
 				0A1295552072EB5E00C21C66 /* msg.wav */,
-				0A0235A21FFD20CB00CBD846 /* PagingMenuController.xcodeproj */,
+				0A252F112095D56C00C1F7F4 /* PagingMenuController.xcodeproj */,
 				0AD282821FF47BBC0044E41C /* Alamofire.xcodeproj */,
 				0A6AD6561FF1EFB4009A511A /* ZhibaoZone */,
 				0A6AD66E1FF1EFB4009A511A /* ZhibaoZoneTests */,
@@ -617,7 +608,6 @@
 			);
 			dependencies = (
 				0AD2829E1FF47BD50044E41C /* PBXTargetDependency */,
-				0A0235B21FFD20E600CBD846 /* PBXTargetDependency */,
 			);
 			name = ZhibaoZone;
 			productName = ZhibaoZone;
@@ -714,8 +704,8 @@
 					ProjectRef = 0AD282821FF47BBC0044E41C /* Alamofire.xcodeproj */;
 				},
 				{
-					ProductGroup = 0A0235A31FFD20CB00CBD846 /* Products */;
-					ProjectRef = 0A0235A21FFD20CB00CBD846 /* PagingMenuController.xcodeproj */;
+					ProductGroup = 0A252F122095D56C00C1F7F4 /* Products */;
+					ProjectRef = 0A252F112095D56C00C1F7F4 /* PagingMenuController.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -728,11 +718,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0A0235AE1FFD20CB00CBD846 /* PagingMenuController.framework */ = {
+		0A252F1D2095D56D00C1F7F4 /* PagingMenuController.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = PagingMenuController.framework;
-			remoteRef = 0A0235AD1FFD20CB00CBD846 /* PBXContainerItemProxy */;
+			remoteRef = 0A252F1C2095D56D00C1F7F4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		0AD2828E1FF47BBC0044E41C /* Alamofire.framework */ = {
@@ -901,11 +891,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A0235B21FFD20E600CBD846 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PagingMenuController;
-			targetProxy = 0A0235B11FFD20E600CBD846 /* PBXContainerItemProxy */;
-		};
 		0A6AD66D1FF1EFB4009A511A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0A6AD6531FF1EFB4009A511A /* ZhibaoZone */;
